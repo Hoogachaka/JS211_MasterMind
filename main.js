@@ -75,7 +75,6 @@ const generateHint = (guess) =>  {
 // }
 
 const mastermind = (guess) => {
-  solution = 'abcd';
   if(guess === solution) {
     console.log(colors.rainbow("You guessed it!"))
   } else {
